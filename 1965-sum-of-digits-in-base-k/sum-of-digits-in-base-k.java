@@ -4,7 +4,7 @@ class Solution {
         while(n>0)
         {
             rem+= n%k;
-            n=n/k;
+            n/=k;
         }return rem;
     }
 }
